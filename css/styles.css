@@ -1,0 +1,701 @@
+/*
+	@author:Jianhua Liang;
+	@course:CSCI1170;
+	@year:2019;
+*/
+
+
+
+
+*{
+	
+	font-family: Georgia, serif;
+}
+footer{
+	color: white;
+	background-color: DarkBlue;
+}
+.navRed{
+	background-color: rgb(255,71,57);
+	font-weight: bold;
+}
+
+
+.leftClear{
+	clear: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+
+/*just for header
+question: how to move the log in;
+*/
+
+
+/*for javascript*/
+#expandableDiv{
+	background: rgb(255,71,57);
+	width: 100%;
+	margin: 0;
+	display: none;
+}
+.expandableH1{
+	background-color: DarkBlue;
+	color:white;
+}
+
+
+
+/*for javascript end here*/
+
+/*line   :: style definitions for header*/
+header{
+	height: 180px;
+
+}
+
+/*line   :: style definitions for header>nav*/
+.allPageNav{
+	height: 55px;
+	background-color: DarkBlue;
+	/*height: 60px; don;t know if it works*/
+	/*margin:0px;  don;t know if it works*/
+	/*border-style: : SOLID;
+    border-width: : 15px;*/
+}
+.navBlueuL{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+.liNavHeader{
+	float: left;
+}
+.sereachDivLiClass{
+	float: right !important;
+	height: 55px;
+
+}
+.liNavHeader .aNavHeader{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.liNavHeader{
+		background-color: DarkBlue;
+	}
+.aNavHeader{
+  padding: 18px;
+  color:  white!important;
+  width: 138px;
+}
+a:hover{
+	color:rgb(255,165,0);
+}
+.liNavHeader > a{
+	color: white;
+	font-weight: bold;
+}
+.sereachClass{
+	background-color: rgb(180,180,180) !important;
+	height: 20px ;
+}
+
+/*line   :: style definitions for header>school logo and name */
+.logoNameLogin{
+	height: 150px;
+}
+.logIn{
+	border-bottom: 10px solid rgb(255,175,7);
+}
+.schoolLogoClass{
+	top: -10px;
+    position: relative;
+}
+.schoolLogo{
+	width:150px;
+	height:133px;
+	float: left;
+	clear: left;
+	padding: 20px
+}
+.randomArtSchoolClass{
+	float: left;
+	position: absolute;
+	top:80px;
+	left: 200px;
+}
+/*line   :: style definitions for header>log in*/
+.navBlueuL{
+	display: inline-block;
+}
+
+
+/*homepage pic and nav bar after header*/
+.homepageImgAndNav{
+	display: flex;
+	justify-content: center; 
+	width: 830px;
+	background-color: rgb(255,71,57);
+}
+#bigUniImg{
+	width: 710px;/*456 342 */
+	height:400px; 
+	position: relative;
+}
+.homepageImgAndNav{
+    height: 400px;
+
+}
+/*.navRed{
+	height: 400px;
+}
+*/
+.homeRedLi .homeRedA{
+	display: block;
+	width:545px;
+	font-size: 30px
+}
+#navigation2homepage{
+	list-style-type: none;
+	background-color: rgb(255,71,57);
+}
+#navigation2homepage{
+			float: left;
+		}
+.homeRedLi{
+	height: 95px;
+}
+#homeoageContent{
+	position: relative;
+	top: 25px;
+}
+.homeRedA{
+	color: black;
+}
+.homeRedA{
+	line-height: 80px;
+	padding: 3px;
+}
+.homepageRedNav{
+		background-color: rgb(255,71,57);
+	}
+/* homepage scroll down content before footer*/
+.imageAndDiv{
+	display: flex;
+	flex-direction: row;
+	height: 130px;
+}
+.homepageSchoolImg{
+	width: 45% ;
+	overflow: visible;
+}
+.img1{/* it doesn't work*/
+	width: 100%; 
+	height: auto; 
+	margin: 5px;
+}
+.homepageContent{
+	width: 45%;
+	margin: 0 10px;
+}
+.homepageGroups{
+	border-right: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	position: relative;
+	top: 25px;
+	width: 410px;
+	height: 220px;
+	margin: 10px;
+
+}
+.homepageMainSection{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+/*footer*/
+footer{
+	position: relative;
+	top:50px;
+	height: 50px;
+}
+.Footer{
+	width: 100%;
+	float: right;
+}
+
+
+/*program page*/
+/*nav red*/
+.ProgramNavRed{
+	height: 55px;
+	position: relative;
+	top:30px;
+	margin-bottom:50px;
+}
+nav{
+	height: inherit;
+	width: inherit;
+}
+#navigation2homepage{
+	width: inherit;
+	height: inherit;
+	margin: 0;
+}
+#navigation2homepage li{
+	width: 100%;
+}
+#navigation2homepage li a{
+	font-weight: bold;
+}
+#ProgramNavigationUl{
+	list-style-type: none;
+	background-color: rgb(255,71,57);
+	height: inherit;
+	margin: 0;
+	padding: 0;
+}
+.programsNavLi .programsNavA{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 15px 20px;
+	height: inherit;
+	font-size: 20px;
+	font-weight: bold;
+	width: 250px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.programsNavLi{
+    float:left;
+    height: 40px;
+    position: relative;
+    left: -150px;
+}
+
+/*programsContent*/
+#programsH2{
+	font-size: 35px;
+	position: relative;
+	top: 20px;
+	left: 100px;
+}
+.programsContent{
+	position: relative;
+	top: 40px;
+
+}
+.programsX{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	margin: 50px 100px;
+}
+
+.programsH3{
+	font-size: 20px;
+}
+.img2{
+	width: 540px;
+	height: 300px;
+	z-index: -1;
+}
+.programsP{
+	width: 540px;
+	height: 100px;
+	position: relative;
+	top: -98px;
+	z-index: 1;
+	background-color: rgba(180,180,180,0.9);
+
+}
+.pogramsName{/* I also used style element in html file for this class in programs.html*/
+	
+	font-weight: bold;
+	box-sizing: border-box;
+	
+}
+
+.ProgramImagAndContent{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.programsName{
+			width: 500px;
+			height: 300px;		
+			text-align: center;
+			padding: 120px 0px;
+			font-size: 30px;
+			background-color: rgb(180,180,180);
+			padding: 0px;
+}
+.programsName p{
+		position: relative;
+		top: 50px;
+	}
+
+
+/*mobile friendly website design*/
+@media screen and (min-width:320px) and (max-width: 379px){
+	/*
+	homepage page
+	*/
+	body{
+		
+	}
+	/*line   :: style definitions for header*/
+	header{
+		height: 230px;
+	}
+	/*line   :: style definitions for header>nav*/
+	.allPageNav{
+		height: 180px;	
+	}
+	.sereachDivLiClass{
+		height: 40px;
+		position: relative;
+		right: -10px;
+	}
+	.aNavHeader{
+	  width: 50%;
+	}
+	.sereachClass{		
+		height: 40px !important;
+	}
+
+	
+	/*line   :: style definitions for header>school logo and name */
+	.randomArtSchoolClass{
+		float: left;
+		position: relative;
+		top:-170px;
+		left: 180px;
+		width: 50%;
+
+	}
+	.schoolName{
+		font-size: 30px;
+	}
+
+	/*line   :: style definitions for header>log in*/
+	/*homepage pic and nav bar after header*/
+	.homepageImgAndNav{
+		display: flex;
+		justify-content: center; 
+		width: 100%;
+		height: 200px;
+		background-color: rgb(255,71,57);
+		position:absolute;
+		top: 0;
+		left: 0;    
+	}
+	.homepageBigImg{
+		height: 100%;
+		width: 100%;
+		position:absolute;
+		top: 0;
+		left: 0;
+	}
+	#bigUniImg{
+		height: inherit;
+		width: 100%
+	}
+	#navigation2homepage{
+		background-color: rgba(255,71,57,0.7);
+	}
+	.homepageRedNav{
+		background-color: rgba(255,71,57,0.7);
+	}
+	
+	.homepageRedNav{
+		height: 100%;
+		width: 100%;
+		position:absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.homeRedLi .homeRedA{
+		width:100%;
+		font-size: 20px
+	}
+	.homeRedLi{
+		height: 46px;
+	}
+	.homeRedA{
+	line-height: 60px;
+	padding: 3px;
+    }
+	#homeoageContent{
+		position: relative;
+		top: -97px;
+	}
+	/*///////////*/
+	.imageAndDiv{
+		display: flex;
+		flex-direction: row;
+		height: 130px;
+	}
+
+	.homepageContent{
+		width: 200px;
+		margin: 0 10px;
+	}
+	.homepageGroups{
+		border-right: 1px solid black;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		position: relative;
+		top: 25px;
+		width: 410px;
+		height: 220px;
+		margin: 10px;
+		background-color: rgba(180,180,180,0.3);
+	}
+	.homepageMainSection{
+		flex-direction: column;
+		position: relative;
+		top: -100px;
+		clear: both;
+	}
+	/*footer*/
+	.Footer{
+		position: absolute;
+		bottom: 15px;
+	}
+	/*
+	program page
+	*/
+	.ProgramNavRed {
+		height: 200px;
+	    position: relative;
+	    top: 110px;
+	}
+	.programsNavLi {
+    	left: 0px;
+    	top:-225px;
+	}
+	.programsNavLi{
+		width: 100%;
+		margin: 0 35px;
+	}
+	#programsH2{
+		width: 100%;
+		top: -60px;
+    	left: 0;
+    	text-align: center;
+	}
+	.programsX{
+		margin: 5px 0;
+		flex-direction: column;
+		height: auto;
+		position: relative;
+		top: -50px;
+	}
+	.programsName{
+		height: 100px;
+		width: inherit;
+	}
+	.img2{
+		width: 100%;
+		height: auto;
+	}
+	.programsP{
+		width: 100%;
+		height: auto;
+		bottom: 5px;
+		margin: 0;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.programsName p{
+		margin: 0;
+		position: relative;
+		top: 10px;
+	}
+	.ProgramImagAndContent{
+		height: 320px;
+		margin-bottom: 10px;
+	}
+
+}
+/*tablet version*/
+@media screen and (min-width:380px) and (max-width: 725px){ 
+/*allPageNav*/
+    .allPageNav{
+		height: 180px;
+	}
+/*login and search*/
+	header{
+		height: 500px;
+	}
+	.logoName{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		top: 10px;
+	}
+	.randomArtSchoolClass{
+		top: 25px;
+	}
+	.schoolLogo{
+		padding: 20px 5px;
+	}
+/*big img and red nav*/
+	main{
+		position: relative;
+		top: -40px;
+	}
+	.homepageBigImg{
+		width: 100%;
+		height: auto;
+	}
+	#bigUniImg{
+		width:100%;
+		height: auto;
+	}
+	#homeoageContent {
+	    position: relative;
+	    top: -50px;
+	    display: flex;
+	    flex-direction: column-reverse;
+	    width: inherit;
+	}
+	.homepageRedNav nav{
+		height: inherit;
+	}
+	#navigation2homepage {
+		margin: 0px;
+	    display: flex;
+	    flex-flow: row wrap;
+	}
+	#navigation2homepage li {
+	    height: 50px;
+	    width: 220px;
+	    margin:0px  5px;
+	}
+	#navigation2homepage li a{
+		width: inherit;
+		height: inherit;
+		font-size: 25px;
+		line-height: 45px;
+	}
+	/*the section with three img and contents*/
+	.homepageMainSection{
+		height: auto;
+		position: relative;
+		top: 50px;
+	}
+	.homepageGroups {
+		display: block;
+	    border-right: 1px solid black;
+	    top: 25px;
+	    width: 30%;
+	    height: auto;
+    }
+
+    .imageAndDiv {
+	    display: flex;
+	    flex-direction: column;
+	    height: auto;
+	    position: relative;
+	    top:-10px;
+	 }   
+	 .homepageSchoolImg {
+	    width: 90%;
+	    overflow: visible;
+	 }
+	 .homepageContent {
+    	width: 90%
+	}
+	/*footer*/
+	footer{
+		position: relative;
+		bottom: 0px;
+	}
+	/*program page*/
+	.ProgramNavRed{
+		height: 110px;
+		top:-120px;
+	}
+	.programsX{
+		height: 110px;
+	}
+	#ProgramNavigationUl{
+		height: 110px;
+	}
+	.programsNavLi {
+		left: 0;
+		width: 50%;
+	}
+	main{
+		height: auto;
+	}
+	.programsContent{
+		position: relative;
+		height:auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.programsContent section{
+		width: 100%;
+		margin-bottom: 15px; 
+	}
+	#programsH2{
+		left: 0;
+		margin: auto;
+		margin-top: 0;
+		margin-bottom:50px;
+		text-align: center;
+	}
+
+	.programsX{
+		margin: 0;
+		position: relative;
+		top: 0;
+		height: 320px;
+	}
+	.programsName{
+		width: 49%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+
+	}
+	.programsName p{
+		position: relative;
+		top: 100px;
+		margin: 0;
+	}
+	.ProgramImagAndContent{
+		width: 49%
+	}
+	.img2{
+		height: 100%;
+		width: 100%;
+	}
+	.programsP {
+	    width: 100%;
+	    height: 130px;
+	    position: relative;
+	    top: -90px;
+	}
+
+
+}

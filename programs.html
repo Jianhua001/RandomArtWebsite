@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- normalize.css by Nicolas Gallagher
+	 https://necolas.github.io/normalize.css/ 
+	 accessed on March 1st 2019-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>programs</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="programsBody">
+	<header><!-- change all id to class to avoid the same id situation-->
+		<div class="allPageHeader">
+			<div class ="allPageNav">
+				<nav class="navBlue">
+					<ul class="navBlueuL">
+						<li class="liNavHeader"><a class="aNavHeader" href="">>students</a></li>
+						<li class="liNavHeader"><a class="aNavHeader" href="">    >faculty&staff</a></li>
+						<li class="liNavHeader"><a class="aNavHeader" href="programs.html">   >programs</a></li>
+						<li class="liNavHeader"><a class="aNavHeader" href="">    >campus</a></li>
+						<li class="liNavHeader"><a class="aNavHeader" href="homePage.html">    >home</a></li>
+						<li class="liNavHeader"><a class="aNavHeader logIn" href="homePage.html">log_in</a></li>
+						<li class="liNavHeader sereachDivLiClass" style="float: right"><a class="aNavHeader sereachClass" href="https://google.ca">sereach</a></li><!--this link is to google.ca-->			
+								
+					</ul>					
+				</nav>
+			</div>	
+			<div class ="logoName">
+				<div class="schoolLogoClass">
+					<img class ="schoolLogo" src="images/schoolLogo.JPG" alt="schoolLogo"><!--This is an original image created/developed by me (Jiannhua Liang) using PDF-->		
+				</div> 
+				<div class="randomArtSchoolClass"><h1 class="schoolName" >Random Art School</h1></div>
+				
+
+			</div>					
+		</div>
+		
+	</header>
+<!--obtained from homePage.html-->
+	<nav class="ProgramNavRed">
+		<ul id="ProgramNavigationUl">
+			<li class="programsNavLi"><a class="programsNavA" href="">apply now</a></li>
+			<li class="programsNavLi"><a class="programsNavA" href="">get involved</a></li>
+			<li class="programsNavLi"><a class="programsNavA" href="">school servies</a></li>
+			<li class="programsNavLi"><a class="programsNavA" href="">alumni</a></li>
+		</ul>
+	</nav><!--obtained from homePage.html-->
+	<main>
+		<div id="formDiv">
+			<form id="form1" action="" method="post">
+				<fieldset>
+					<legend>Contact Form</legend>
+					<label for="inputFirstName">First Name:</label>
+					<br>
+					<input id="inputFirstName" type="text" name="firstName">
+					<br>
+					<label for="inputLastName">Last Name:</label>
+					<br>
+					<input id="inputLastName" type="text" name="lastName">
+					<br>
+					<label for="inputEmail">Email Address:</label>
+					<br>
+					<input id="inputEmail" type="text" name="email" size="35">
+					<br>
+					<label for="inputMessage">Message:</label>
+					<br>
+					<textarea id="inputMessage" name="message" cols="35" rows="3"> </textarea>
+					<br>
+					<button type="button" onclick="alertFunction()" form="form1">Submit</button>
+
+				</fieldset>
+			</form>
+		</div>
+		
+		<div class="programsContent">
+			<h2 id="programsH2" >PROGRAMS</h2>
+			<section>
+				<div class="programsX">	
+					<div class="programsName"><p>undergraduate</p><p>programs</p></div>
+					<div class="ProgramImagAndContent">										
+						<img class ="img2" src="images/programsImage.JPG" alt="img2"><!--I obtained this image from https://commons.wikimedia.org/wiki/File:UND_Merrifield_Hall.JPG-->
+						<div class="programsP">
+							<p>
+								Nulla posuere rutrum congue. Donec et tincidunt quam. Etiam cursus aliquet leo, id maximus tellus faucibus vitae. Quisque egestas, velit vitae consequat consectetur, tellus dolor consectetur nibh, ac convallis metus lacus et purus.
+							</p><!-- I obtained the contant from https://www.lipsum.com/feed/html-->	
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="programsX">	
+					<div class="programsName"><p>graduate</p><p>programs</p></div>		
+					<div class="ProgramImagAndContent">							
+						<img class ="img2" src="images/programsImage.JPG" alt="img2"><!--I obtained this image from https://commons.wikimedia.org/wiki/File:UND_Merrifield_Hall.JPG-->
+						<div>
+							<p class="programsP">
+								Donec dignissim nibh nec fermentum congue. Vivamus felis lorem, mattis sit amet nisl vitae, imperdiet vulputate risus. Donec dignissim nibh nec fermentum congue. Vivamus felis lorem, mattis sit amet nisl vitae, imperdiet vulputate risus.
+							</p><!-- I obtained the contant from https://www.lipsum.com/feed/html-->
+						</div>
+					</div>	
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class="Footer">&copy;2019</div>
+		</footer><!--obtained from homePage.html-->
+		<script  src="js/scripts.js"></script>
+		
+	</main>
+
+
+</body>
+</html>
